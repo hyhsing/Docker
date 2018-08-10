@@ -1,4 +1,4 @@
-
+# coding: utf-8
 from flask import Flask 
 from redis import Redis 
 
@@ -7,7 +7,7 @@ app = Flask(__name__)
 ##redis = Redis(host="docker.for.mac.localhost", port=6379) 
 redis = Redis(host="redis", port=6379)
 
-counter_key = "user_counter"" 
+counter_key = "user_counter"
 
 @app.route("/")
 def index():
