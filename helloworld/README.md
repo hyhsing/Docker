@@ -1,9 +1,8 @@
 # Docker 在 Windows10 下 測試 Volume 能否正常運作 
 
 需要注意:
-  - 執行docker時，除了在 Docker on Windows 下開啟分享目錄
-  - Powershell 或 根目錄需指定到 C: 再執行 Docker
-  - Magic
+  - 執行docker時，在 Docker on Windows 下開啟C分享目錄
+  - Powershell 或 根目錄也需指定到 C: 再執行 Docker
 
 ### 範例檔案
 在 C:\docker\helloworld\data 下建立一個 HelloWorld.txt 檔案
