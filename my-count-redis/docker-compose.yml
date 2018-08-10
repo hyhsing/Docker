@@ -2,7 +2,7 @@ web:
   build: web/
   command: python counter.py
   ports: 
-   - "80:5000"
+   - "5000:5000"
   links:
    - redis
 
@@ -13,4 +13,4 @@ redis:
   build: redis/
   command: redis-server /config/redis.conf
   volumes:
-   - /Users/star/Documents/docker/tmp_docker:/data
+   - ./temp_redit_data:/data
